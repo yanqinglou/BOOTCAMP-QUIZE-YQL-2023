@@ -1,1 +1,1 @@
-# BOOTCAMP-QUIZE-YQL-2023
+# hangman-2023
