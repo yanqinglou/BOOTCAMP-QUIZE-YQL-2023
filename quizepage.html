@@ -5,30 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootcamp Quize</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style/style-quizepage.css">
 </head>
 <body>
     <header>
         <h1>Bootcamp Quize</h1>
-        <button id="start">Start game</button>
     </header>
     <div class="flex">
         <main>
             <h2 id="question-spot"></h2>
-            <button id="choice1">A</button>
+            <button id="choice1" >A</button>
             <button id="choice2">B</button>
             <button id="choice3">C</button>
             <button id="choice4">D</button>
             <h2 id="results"></h2>
             <h2 id="results-alert"></h2>
+            <h2 id="scoreannouncement"></h2>
+            <h2 id="finalscore"><a href="./finalscore.html">Click to submit your score!</a></h2>
+            <h2 id="answertime">3</h2>
         </main>
         <aside id="scorebox">
-            <h3>Time left: <span id="time-left">10</span> seconds!</h3>
+            <h3>Time left: <span id="time-left">15</span> seconds!</h3>
+            <h3>Correct</h3>
             <h3><span id="correct"></span></h3>
+            <h3>Wrong</h3>
             <h3><span id="wrong"></span></h3>
         </aside>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

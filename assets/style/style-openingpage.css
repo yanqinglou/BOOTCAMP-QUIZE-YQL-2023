@@ -1,0 +1,47 @@
+* {
+  font-family: "Comic Sans MS";
+}
+
+body {
+  background-color: #f1faee;
+}
+
+div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.flex {
+  display: flex;
+  height: 60vh;
+}
+
+#startlink {
+  background-color: #e63946;
+  margin: 10px;
+  height: max-content;
+  border: 3px solid #e63946;
+  border-radius: 10px;
+  font-size: 150%;
+  transition: 0.5s;
+  text-align: center;
+  padding: 20px;
+  width:fit-content;
+
+
+}
+
+footer {
+  position: absolute;
+  top: 90%;
+  background-color: #A8DADC;
+  width: 100%;
+  padding:5px;
+  text-align: center;
+}
+
+p:hover {
+  box-shadow: 4px 4px #1d3557, -1em 0 0.4em #457b9d;
+}
