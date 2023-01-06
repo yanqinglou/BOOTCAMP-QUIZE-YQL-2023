@@ -1,5 +1,11 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
 body{
     font-family: "Comic Sans MS";
+    
 }
 
 main {
@@ -7,11 +13,24 @@ main {
     padding:20px;
 }
 
+div{
+    padding: 0 10px 0 10px;
+    border: 3px solid black;
+}
+
+
 button{
     margin: 10px;
     padding: 10px;
     background-color:#e63946 ;
     border-radius: 5px;
+}
+
+#award{
+    width: 100px;
+    height: 120px;
+    position: relative;
+    left: 150px;
 }
 
 footer {

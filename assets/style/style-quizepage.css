@@ -6,12 +6,14 @@ header {
     border:1px solid black;
     min-height:15vh;
     text-align: center;
-    background-color: #e63946;;
+    background-image: url(../petya-hadjieva-ragerabbit-red-mountains-jpeg.jpeg) ;
+    color:whitesmoke;
 }
+
 
 .flex {
     display: flex;
-    height: 60vh;
+    align-items: stretch;
 }
 
 main {
@@ -19,18 +21,26 @@ main {
     width:70%;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
     align-items: center;
-    height:max-content;
+    border: 3px solid black;
 }
 
 button{
     margin: 10px;
+    font-size:120%;
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    transition: 0.5s;
 }
 
 aside{
     background-color: #A8DADC;
     width:30%;
     text-align: center;
-    height:160%
+    border: 3px solid black;
+}
+
+button:hover{
+    background-color: #A8DADC;
+    border: 3px solid #A8DADC;
 }

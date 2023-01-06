@@ -3,6 +3,7 @@ var submmitButton = document.querySelector('#submmit');
 var userNameSpan = document.querySelector('#user-name');
 var scoreSpan = document.querySelector('#userscore');
 var msgDiv = document.querySelector("#msg");
+var totalAttempt = localStorage.getItem("totalattempt")
 
 renderLastRegistered();
 
@@ -12,13 +13,15 @@ function displayMessage(type, message) {
 }
 
 function renderLastRegistered() {
-  var name = localStorage.getItem("name");
+  var name = localStorage.getItem("name"); 
+
 
   if (!name) {
     return;
   }
 
   userNameSpan.textContent = name;
+  scoreSpan.textContent = totalAttempt;
 }
 
 submmitButton.addEventListener("click", function(event) {
@@ -32,6 +35,7 @@ submmitButton.addEventListener("click", function(event) {
     displayMessage("success", "Registered successfully");
 
     localStorage.setItem("name", name);
+    localStorage.setItem("totalattempt",totalAttempt)
     renderLastRegistered();
   }
 });

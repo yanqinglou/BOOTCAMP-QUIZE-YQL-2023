@@ -42,6 +42,6 @@ footer {
   text-align: center;
 }
 
-p:hover {
+h1:hover {
   box-shadow: 4px 4px #1d3557, -1em 0 0.4em #457b9d;
 }
