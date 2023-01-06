@@ -119,7 +119,7 @@ function showquestion() {
   if (currentNo == 5) {
     //after 5 question, stop the timer
     scoremsg.textContent = "Congratulation! You just finished all the questions!"
-    link = "./finalscore.html"
+    link = "../additional pages/finalscore.html"
     finalScore.innerHTML = '<a href="' + link +'">Click to submit your score</a>'
     totalAttempt = correct + wrong
     console.log(totalAttempt);
